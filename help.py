@@ -13,5 +13,7 @@
 
 # Begin code
 
-def printHelp():
+__name__ = "help"
+
+def help():
   printNow("Game Help")
