@@ -16,12 +16,14 @@
 # Begin Code
 
 def startGame():
+  name = requestString("Please enter your name.")
   displayIntro()
   gameInPlay = true
+  currentLocation = ""
   
   while gameInPlay != false:
-    printNow(gameInPlay)
-    userChoice = 0
+    #printNow(gameInPlay)
+    userChoice = ""
     
     userChoice = requestString("Enter your move")
     if userChoice.lower() == "exit":
